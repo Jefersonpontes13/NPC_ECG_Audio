@@ -5,12 +5,27 @@ from numpy import ones
 from numpy import array
 from numpy import arange
 import math
-from scipy import stats
 from sklearn.utils import shuffle
 
 '''Jeferson Pontes'''
 '''https://github.com/Jefersonpontes13'''
 
+'''
+Classifier NPC(Nearest Prototype Classifier), for ECG and Audio signals.
+
+The sinals have length = 500.
+
+There are 50 data for each type of signal
+
+Crossvalidation using K-fold with 10 groups
+
+## Attributes:
+### mean
+### variance
+### standard_deviation
+### skewness
+### kurtosis
+'''
 
 '''Atributo: Média'''
 
